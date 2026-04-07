@@ -1,0 +1,19 @@
+footer {
+    padding: 48px;
+    background: #0C0A08;
+    border-top: 1px solid #1E293B;
+}
+
+footer .container-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+footer .container-section .paragraph {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #64748B;
+}

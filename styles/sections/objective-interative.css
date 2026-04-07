@@ -1,0 +1,150 @@
+.discursive-objective .card-discusive {
+    border: 1px solid #E2E8F0;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    border-radius: 12px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 24px;
+}
+
+.discursive-objective fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.discursive-objective .card-discusive .button-zone {
+    display: flex;
+    gap: 16px;
+}
+
+.discursive-objective .card-discusive .form-checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.discursive-objective .card-discusive .form-checkboxes .checkbox-item {
+    border-radius: 4px;
+    border: 1px solid #E2E8F0;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    background: #FFFFFF;
+}
+
+.discursive-objective .card-discusive .form-checkboxes .checkbox-item label {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.discursive-objective .card-discusive .form-checkboxes .checkbox-item:has(input:checked) {
+    background-color: #0C0A08;
+}
+
+.discursive-objective .card-discusive .form-checkboxes .checkbox-item label:has(input:checked) {
+    color: #FFFFFF;
+}
+
+.checkbox-item input:checked {
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    appearance: none;
+    background: white;
+}
+
+.checkbox-item input:checked::after {
+    content: "";
+    background-image: url("/dot-group/assets/icons/check-check.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 10px;
+    height: 20px;
+}
+
+.discursive-objective .card-discusive .form-checkboxes .checkbox-item input {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    appearance: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discursive-objective .card-discusive .form-checkboxes .checkbox-item label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #334155;
+}
+
+.discursive-objective .card-discusive .feedback-menssage-block {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    height: 111.5px;
+    opacity: 1;
+    gap: 6.88px;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 16px;
+    background: #FFF9C4;
+}
+
+.discursive-objective .card-discusive .feedback-menssage-block .close-zone {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discursive-objective .card-discusive .feedback-menssage-block .btn-close-feedback {
+    all: unset;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: unset;
+    color: unset;
+    height: 100%;
+}
+
+.discursive-objective .card-discusive .feedback-menssage-block .title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #713F12;
+}
+
+.discursive-objective .card-discusive .feedback-menssage-block .paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.75px;
+    color: #713F12;
+}
+
+.discursive-objective .card-discusive .text-block {
+    display: flex;
+    gap: 16px;
+}
+
+.discursive-objective .card-discusive .text-block .description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.discursive-objective .card-discusive .text-block .description .title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.discursive-objective .card-discusive .text-block .description .paragraph {
+    font-size: 18px;
+    max-width: 832px;
+}

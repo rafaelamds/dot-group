@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+/* Globais e Utilitários */
+@import 'global.css';
+
+/* Componentes / Módulos */
+@import './sections/header.css';
+@import './sections/video.css';
+@import './sections/photo-and-text.css';
+@import './sections/media-gallery.css';
+@import './sections/cards-interatives.css';
+@import './sections/media-play.css';
+@import './sections/discursive-activity.css';
+@import './sections/objective-interative.css';
+@import './sections/accordions.css';
+@import './sections/footer.css';
