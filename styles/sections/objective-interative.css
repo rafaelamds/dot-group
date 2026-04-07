@@ -39,7 +39,6 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 16px;
-    cursor: pointer;
 }
 
 .discursive-objective .card-discusive .form-checkboxes .checkbox-item:has(input:checked) {
