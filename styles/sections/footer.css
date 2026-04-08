@@ -2,6 +2,8 @@ footer {
     padding: 48px;
     background: #0C0A08;
     border-top: 1px solid #1E293B;
+    display: flex;
+    justify-content: center;
 }
 
 footer .container-section {
@@ -9,6 +11,8 @@ footer .container-section {
     flex-wrap: wrap;
     gap: 24px;
     justify-content: space-between;
+    max-width: 1024px;
+    width: 100%;
 }
 
 footer .container-section .paragraph {
