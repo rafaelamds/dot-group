@@ -23,7 +23,7 @@
     position: relative;
     width: 100%;
     aspect-ratio: 16 / 9;
-    background-image: url(/dot-group/assets/images/video/image-computer.png);
+    background-image: url(../../assets/images/video/image-computer.png);
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;

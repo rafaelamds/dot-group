@@ -59,7 +59,7 @@
 
 .checkbox-item input:checked::after {
     content: "";
-    background-image: url("/dot-group/assets/icons/check-check.svg");
+    background-image: url("../../assets/icons/check-check.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
