@@ -5,9 +5,14 @@ import { initMediaPlay } from './media-play.js';
 import { initDiscursiveActivity } from './discursive-activity.js';
 import { initObjectiveActivity } from './objective-activity.js';
 import { initAccordions } from './accordions.js';
+import { initLinesAnimation } from "./header.js";
+import { initHeaderAnimation } from "./header.js";
 
 document.addEventListener('DOMContentLoaded', () => {
-    
+
+    initLinesAnimation();
+    initHeaderAnimation(document.querySelector('header'));
+
     const observerOptions = {
         root: null,
         rootMargin: '100px',
@@ -18,24 +23,26 @@ document.addEventListener('DOMContentLoaded', () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const element = entry.target;
+
                 if (element.classList.contains('video') && element.querySelector('#meu-video')) {
                     initVideo(element.querySelector('#meu-video'));
-                } 
+                }
+
                 else if (element.classList.contains('media-gallery')) {
                     initMediaGallery(element.querySelector('.swiper-media-gallery'));
-                } 
+                }
                 else if (element.classList.contains('rotanting-cards')) {
                     initInteractiveCards(element);
-                } 
+                }
                 else if (element.classList.contains('media-play')) {
                     initMediaPlay(element);
-                } 
+                }
                 else if (element.classList.contains('discursive-objective')) {
                     initObjectiveActivity(element);
-                } 
+                }
                 else if (element.classList.contains('discursive-activity')) {
                     initDiscursiveActivity(element);
-                } 
+                }
                 else if (element.classList.contains('frequently-asked-questions')) {
                     initAccordions(element);
                 }

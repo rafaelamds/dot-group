@@ -141,3 +141,9 @@
     background-color: #FFFFFF;
     color: #0C0A08;
 }
+
+@media (max-width: 589px) {
+    .rotanting-cards {
+        gap: 40px;
+    }
+}

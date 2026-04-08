@@ -17,6 +17,7 @@
 
 .discursive-objective .card-discusive .button-zone {
     display: flex;
+    flex-wrap: wrap;
     gap: 16px;
 }
 
@@ -128,6 +129,7 @@
 
 .discursive-objective .card-discusive .text-block {
     display: flex;
+    flex-wrap: wrap;
     gap: 16px;
 }
 

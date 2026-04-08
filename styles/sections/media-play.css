@@ -156,7 +156,7 @@
     display: flex;
 }
 
-.media-play .audio-player-wrapper .settings-container .speed-menu li {
+.media-play .audio-player-wrapper .settings-container .speed-menu li button {
     color: #FFFFFF;
     cursor: pointer;
     text-align: right;
@@ -166,14 +166,16 @@
     line-height: 26px;
     padding: 8px;
     border-radius: 8px;
+    background: transparent;
+    border: none;
 }
 
-.media-play .audio-player-wrapper .settings-container .speed-menu li:hover {
+.media-play .audio-player-wrapper .settings-container .speed-menu li button:hover {
     background-color: #334155;
     color: #FFFFFF;
 }
 
-.media-play .audio-player-wrapper .settings-container .speed-menu li.active {
+.media-play .audio-player-wrapper .settings-container .speed-menu li button.active {
     color: #FFFFFF;
     font-weight: 700;
     background-color: #1a2b3c;
@@ -211,6 +213,11 @@
 }
 
 @media (max-width: 589px) {
+    .media-play .text-zone .title {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
     .audio-player-wrapper {
         flex-wrap: wrap;
         justify-content: space-between;

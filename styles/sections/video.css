@@ -67,3 +67,10 @@
 .video .btn-play:hover {
     background-color: #1d1d1dc5;
 }
+
+@media (max-width: 589px) {
+    .video .descriptions .title {
+        font-size: 36px;
+        line-height: 36px;
+    }
+}

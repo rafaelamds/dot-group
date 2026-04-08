@@ -11,6 +11,7 @@
 
 .discursive-activity .card-discusive .button-zone {
     display: flex;
+    flex-wrap: wrap;
     gap: 16px;
 }
 
@@ -57,6 +58,7 @@
 
 .discursive-activity .card-discusive .text-block {
     display: flex;
+    flex-wrap: wrap;
     gap: 16px;
 }
 

@@ -75,3 +75,9 @@ main {
     color: #9CA3AF;
     cursor: default;
 }
+
+@media (max-width: 589px) {
+    main {
+        gap: 42px;
+    }
+}

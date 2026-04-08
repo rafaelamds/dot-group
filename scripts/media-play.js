@@ -112,11 +112,12 @@ export function initMediaPlay(container) {
 
     speedOptions.forEach(option => {
         option.addEventListener('click', (e) => {
-            const speed = parseFloat(e.target.getAttribute('data-speed'));
+            const liElement = e.currentTarget; 
+            const speed = parseFloat(liElement.getAttribute('data-speed'));
             audio.playbackRate = speed;
 
             speedOptions.forEach(opt => opt.classList.remove('active'));
-            e.target.classList.add('active');
+            liElement.classList.add('active');
 
             speedMenu.classList.remove('show');
         });
